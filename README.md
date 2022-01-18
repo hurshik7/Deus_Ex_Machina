@@ -54,7 +54,7 @@ Content of the project folder:
 ```
 
 ## Resources
-- POCU Academy COMP2200 C unmanaged programming course (https://pocu.academy/)
+- POCU Academy COMP3200 C++ unmanaged programming course (https://pocu.academy/)
 
 ## Contact
 * Shik Hur - hurshik7@gmail.com
