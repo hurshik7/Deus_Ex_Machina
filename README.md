@@ -12,6 +12,7 @@ Each vehicle has a different speed and capacity, and all vehicles in Deux ex mac
 
 Leaned polymorphism, virtual function, virtual table, inheritance, multiple inheritance, abstract class, interface, and singleton design pattern.
 
+Jan, 2021
 
 ## Technologies
 Technologies used for this project:
