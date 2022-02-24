@@ -108,18 +108,18 @@ int main()
 	bRemoved = deusExMachina1->RemoveVehicle(9);
 	assert(!bRemoved);
 
-	deusExMachina1->Travel(); // 모든 운송 수단이 이동
-	deusExMachina1->Travel(); // Boat, Motorcycle, 두 Sedan, UBoat가 이동
-	deusExMachina1->Travel(); // Motorcycle, 두 Sedan이 이동
-	deusExMachina1->Travel(); // Boat, Motorcycle, 두 Sedan이 이동
-	deusExMachina1->Travel(); // UBoat만 빼고 전부 이동
-	deusExMachina1->Travel(); // 어떤 운송 수단도 움직이지 않음
-	deusExMachina1->Travel(); // Boat, Motorcycle, 트레일러 안 달린 Sedan, UBoat가 이동
-	deusExMachina1->Travel(); // Boat, Motorcycle, 두 Sedan, UBoat가 이동
-	deusExMachina1->Travel(); // Airplane, Boatplane, Motorcycle, 두 Sedan이 이동
-	deusExMachina1->Travel(); // Boat, Motorcycle, 두 Sedan이 이동
-	deusExMachina1->Travel(); // Boat, Motorcycle, 두 Sedan이 이동
-	deusExMachina1->Travel(); // 트레일러 달린 Sedan만 이동
+	deusExMachina1->Travel(); // Move all transportations by the rules they have
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel();
+	deusExMachina1->Travel(); 
+	deusExMachina1->Travel(); 
 
 	assert(deusExMachina1->GetFurthestTravelled() == boat);
 
